@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>$(LibTypesTargetFrameworks)</TargetFrameworks>
-    <PackageId>$(PackagePrefix).Opc.Ua.Types</PackageId>
+    <PackageId>$(PackagePrefix).Opc.Ua.Types.DPA</PackageId>
     <AssemblyName>$(AssemblyPrefix).Types</AssemblyName>
     <RootNamespace>Opc.Ua</RootNamespace>
-    <Description>OPC UA Type Library</Description>
+    <Description>Temporary OPC UA Type Library for dpa. Includes fix: https://github.com/OPCFoundation/UA-.NETStandard/pull/3707</Description>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>$(LibCoreTargetFrameworks)</TargetFrameworks>
-    <PackageId>$(PackagePrefix).Opc.Ua.Security.Certificates</PackageId>
+    <PackageId>$(PackagePrefix).Opc.Ua.Security.Certificates.DPA</PackageId>
     <AssemblyName>$(AssemblyPrefix).Security.Certificates</AssemblyName>
     <RootNamespace>Opc.Ua.Security.Certificates</RootNamespace>
-    <Description>OPC UA Security X509 Certificates Class Library</Description>
+    <Description>Temporary OPC UA Security X509 Certificates Class Library for dpa. Includes fix: https://github.com/OPCFoundation/UA-.NETStandard/pull/3707</Description>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

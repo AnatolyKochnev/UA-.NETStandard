@@ -2,9 +2,9 @@
   <PropertyGroup>
     <AssemblyName>$(AssemblyPrefix).Client</AssemblyName>
     <TargetFrameworks>$(LibTargetFrameworks)</TargetFrameworks>
-    <PackageId>$(PackagePrefix).Opc.Ua.Client</PackageId>
+    <PackageId>$(PackagePrefix).Opc.Ua.Client.DPA</PackageId>
     <RootNamespace>Opc.Ua.Client</RootNamespace>
-    <Description>OPC UA Client Class Library</Description>
+    <Description>Temporary OPC UA Client Class Library for dpa. Includes fix: https://github.com/OPCFoundation/UA-.NETStandard/pull/3707</Description>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Nullable>enable</Nullable>

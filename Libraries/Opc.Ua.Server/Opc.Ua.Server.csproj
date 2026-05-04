@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>$(LibTargetFrameworks)</TargetFrameworks>
-    <PackageId>$(PackagePrefix).Opc.Ua.Server</PackageId>
+    <PackageId>$(PackagePrefix).Opc.Ua.Server.DPA</PackageId>
     <AssemblyName>$(AssemblyPrefix).Server</AssemblyName>
     <RootNamespace>Opc.Ua.Server</RootNamespace>
-    <Description>OPC UA Server Class Library</Description>
+    <Description>Temporary OPC UA Server Class Library for dpa. Includes fix: https://github.com/OPCFoundation/UA-.NETStandard/pull/3707</Description>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

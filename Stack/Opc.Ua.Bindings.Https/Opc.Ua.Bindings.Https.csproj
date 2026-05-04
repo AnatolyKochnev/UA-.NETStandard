@@ -3,9 +3,9 @@
     <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
     <TargetFrameworks>$(HttpsTargetFrameworks)</TargetFrameworks>
     <AssemblyName>$(AssemblyPrefix).Bindings.Https</AssemblyName>
-    <PackageId>$(PackagePrefix).Opc.Ua.Bindings.Https</PackageId>
+    <PackageId>$(PackagePrefix).Opc.Ua.Bindings.Https.DPA</PackageId>
     <RootNamespace>Opc.Ua.Bindings</RootNamespace>
-    <Description>OPC UA Https Binding Library for a Opc.Ua.Server.</Description>
+    <Description>Temporary OPC UA Https Binding Library for a Opc.Ua.Server for dpa. Includes fix: https://github.com/OPCFoundation/UA-.NETStandard/pull/3707</Description>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
